@@ -1,9 +1,9 @@
 # Найти расстояние между двумя точками пространства
 
 x1 = float(input('Введите X1: '))
-y1 = float(input('Введите X2: '))
-x2 = float(input('Введите Y1: '))
-y2 = float(input('Введите Y1: '))
+y1 = float(input('Введите Y1: '))
+x2 = float(input('Введите X2: '))
+y2 = float(input('Введите Y2: '))
 
 dist = ((x2-x1)**2 + (y2-y1)**2) ** 0.5
 
