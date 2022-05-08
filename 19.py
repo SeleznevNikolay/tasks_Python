@@ -2,9 +2,11 @@
 # использования встроенного генератора 
 # псевдослучайных чисел.
 
+
+
 import time
 
-now = time.clock_settime_ns
+now = str(time.clock_gettime())
 print(now)
 
 
